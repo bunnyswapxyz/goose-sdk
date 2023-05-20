@@ -70,5 +70,12 @@ export const WETH = {
     18,
     'WBNB',
     'Wrapped BNB'
+  ),
+  [ChainId.PULSE]: new Token(
+    ChainId.PULSE,
+    '0xA1077a294dDE1B09bB078844df40758a5D0f9a27',
+    18,
+    'WPLS',
+    'Wrapped PLS'
   )
 }
